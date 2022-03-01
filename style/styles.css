@@ -42,3 +42,10 @@ nav{display: flex;
     background-color: rgba(255,255,0,0.6);
     margin-top: 2em;
     box-shadow: 3px 3px 3px black}
+
+    h2{color: rgb(235, 228, 220); text-align: center}
+    p{font-family: 'Times New Roman', Times, serif; font-size: 1.3em; margin-left: 5px; margin-right: 5px; text-align: justify}
+    img{width: 30%; margin-left: 35%}
+    .v{font-style: oblique}
+    h5{color: blue}
+    h5:hover{color:red}
