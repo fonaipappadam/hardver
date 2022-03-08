@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A 9e osztály oldala a hardverelemekről</title>
-    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="ram.css    ">
 </head>
 <body>
     <!--A fejléc kezdete-->
@@ -20,60 +19,57 @@
     <!--a navigáció-->
     <br> <br> <br>
     <h1>RAM (Memória)</h1>
-    <p>
-    A RAM (Random Access Memory) A RAM tárolja a CPU által végrehajtandó programokat és a feldolgozásra váró adatokat. Az adatok csak addig maradnak meg benne, amíg a számítógép feszültség alatt van: kikapcsoláskor a benne tárolt adatok elvesznek.
-    </p>
-    <p>
-    A magyar véletlen elérés kifejezés nem pontos, hiszen a memória elérése nem véletlenszerűen, hanem pontos címzések alapján történik, az angol random szó itt arra utal, hogy egy adott memóriarész elérésének gyorsasága független az elhelyezkedésétől
-    </p>
     <br>
-    <br>
-    <h1>
-    Általános
-    </h1>
-    <p>
-    számítógép memóriája a processzor mellett alapvető fontosságú alkatrész. Mára teljes mértékben felváltották a félvezető RAM-ok. Mivel a RAM jóval lassabb, mint a processzor, ezért a processzorban saját, gyors memória is van, a cache.
-    </p>
-    <p>
-    A RAM egy bájtnyi információt tároló részét memóriarekesznek nevezzük. A memóriarekeszek sorszámát címnek nevezzük, a CPU ennek alapján találja meg a keresett információt a RAM-ban.
-    </p>
-    <p>
-    A memóriák sebességének növelése érdekében gyakran két kisebb memóriamodult kötnek a gépbe: így növekszik a sávszélesség, ezáltal a sebesség is. Ez az úgy nevezett dual channel, azaz kétcsatornás mód.
-    </p>
-    <p>
-    A CPU és a RAM közötti összeköttetést buszrendszer biztosítja.
-    </p>
-    <hr>
-    <img src="https://www.maxpixel.net/static/photo/1x/Ram-Computer-Parts-Accessories-5945653.jpg" alt="s" class="ram">
-    <hr>
-    <br>
-    <br> 
-    <h1>
-    Főbb típusuk
-    </h1>
-    <p class="v">
-    Statikus RAM, SRAM <br> </p>
-    <p>
-    Minden memóriacellát egy kétállapotú tároló alkot, amelyet több tranzisztor (általában 4 vagy 6 db) alkot, ezért bonyolultabb, és drágább kivitelű. Főként processzor regisztereiként, gyorsítótárakban alkalmazzák.
-    </p>
-    <p>
-        Előnyei: <br> <br>
-        fogyasztása rendkívül kicsi <br>
-nagyságrendekkel nagyobb a sebessége, mint a dinamikus RAM-nak <br>
-nem szükséges a tartalmat frissíteni, tápenergia meglétéig tárol. <br>
-    </p> <br> <br>
-    <p class="v">
-    Dinamikus RAM, DRAM <br> </p>
-    <p>
-    (ang. Dynamic Random Access Memory). Egy memória cellát egy kondenzátor és egy tranzisztor épít fel. Az információt addig tárolja, amíg a kondenzátor ki nem sül. Az információ elvesztését kiküszöböli a memória frissítése. <br>
-    változata a DDR SDRAM.
-    </p> <br> <br>
-    <h1>Főbb paraméterei</h1>
-    <p>A RAM két legfontosabb adata, hogy mekkora a tárolókapacitása: ez általában 4 GB-32 GB között van (2021.január 10-én a legnagyobb 1024 GB-os)</p>
-    <p>A másik főbb adat pedig a memóriamodul sebessége (milyen gyorsan lehet belőle az adatokat kiolvasni, írni):</p>
-    <p>Ezt befolyásolja az órajel, 2020-ban a DDR4 típusú memóriák többségének 2133 MHz a maximuma, de léteznek 3000 MHz-es órajelű típusok is <br>
-    A késleltetési idő (ld. fentebb)
-    </p> <br> <br> <br> <br>
+    <div class="wrapper">
+        <div class="inner_div">
+            <figure>
+<img  src="https://www.maxpixel.net/static/photo/1x/Ram-Computer-Parts-Accessories-5945653.jpg" alt="s">
+
+                <figcaption>A RAM-ról</figcaption>
+                <p>
+                    A RAM (Random Access Memory) A RAM tárolja a CPU által végrehajtandó programokat és a feldolgozásra váró adatokat. Az adatok csak addig maradnak meg benne, amíg a számítógép feszültség alatt van: kikapcsoláskor a benne tárolt adatok elvesznek.
+                    A magyar véletlen elérés kifejezés nem pontos, hiszen a memória elérése nem véletlenszerűen, hanem pontos címzések alapján történik, az angol random szó itt arra utal, hogy egy adott memóriarész elérésének gyorsasága független az elhelyezkedésétől. A memóriák sebességének növelése érdekében gyakran két kisebb memóriamodult kötnek a gépbe: így növekszik a sávszélesség,ezáltal a sebesség is. Ez az úgy nevezett dual channel, azaz kétcsatornás mód.
+                    A CPU és a RAM közötti összeköttetést buszrendszer biztosítja.
+                </p>
+            </figure>
+           
+           
+        </div>
+
+        <div class="inner_div">
+
+            <figure>
+<img src="./pict/amd.jpg" alt="">
+
+                <figcaption>Általános</figcaption>
+                <p>
+                    A számítógép memóriája a processzor mellett alapvető fontosságú alkatrész. Mára teljes mértékben felváltották a félvezető RAM-ok. Mivel a RAM jóval lassabb, mint a processzor, ezért a processzorban saját, gyors memória is van, a cache.
+                    A RAM egy bájtnyi információt tároló részét memóriarekesznek nevezzük. A memóriarekeszek sorszámát címnek nevezzük, a CPU ennek alapján találja meg a keresett információt a RAM-ban.
+                    A RAM két legfontosabb adata, hogy mekkora a tárolókapacitása: ez általában 4 GB-32 GB között van (2021.január 10-én a legnagyobb 1024 GB-os)
+                    A másik főbb adat pedig a memóriamodul sebessége (milyen gyorsan lehet belőle az adatokat kiolvasni, írni). Ezt befolyásolja az órajel, 2020-ban a DDR4 típusú memóriák többségének 2133 MHz a maximuma, de léteznek 3000 MHz-es órajelű típusok is
+                </p>
+            </figure>
+           
+        </div>
+        <div class="inner_div">
+
+
+            <figure>
+<img src="./pict/amd.jpg" alt="">
+                <figcaption>Főbb típusuk</figcaption>
+                <p>
+                    Statikus RAM, SRAM <br>
+                    Előnyei: <br> <br>
+                    fogyasztása rendkívül kicsi <br>
+                    nagyságrendekkel nagyobb a sebessége, mint a dinamikus RAM-nak <br>
+                    nem szükséges a tartalmat frissíteni, tápenergia meglétéig tárol.
+                    Dinamikus RAM, DRAM <br>
+                    (ang. Dynamic Random Access Memory). Egy memória cellát egy kondenzátor és egy tranzisztor épít fel. Az információt addig tárolja, amíg a kondenzátor ki nem sül. Az információ elvesztését kiküszöböli a memória frissítése. <br>
+                    változata a DDR SDRAM.
+                </p>
+            </figure>
+        </div>
+    </div>
     <h5>források: <a href="https://hu.wikipedia.org/wiki/RAM">Wiki.RAM</a></h6>
     </body>
     </html>
