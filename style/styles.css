@@ -50,6 +50,5 @@ nav{display: flex;
     h5{color: blue}
     h5:hover{color:red}
 
-p{
-    color: wheat, 
+p{color: wheat; 
     font-size: 1.2em}
