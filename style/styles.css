@@ -44,8 +44,20 @@ nav{display: flex;
     box-shadow: 3px 3px 3px black}
 
     h2{color: rgb(235, 228, 220); text-align: center}
-    p{font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif; font-size: 1.6em; margin-left: 5px; margin-right: 5px; text-align: justify; color: lightblue}
+    p{font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif; font-size: 1.6em; margin-left: 5px; margin-right: 5px; text-align: justify; color: lightblue;
+    padding:2%}
     .ram{align-self: center; width:40%}
     .v{font-style: oblique}
     h5{color: blue}
     h5:hover{color:red}
+
+    aside{width:20%;background-color:rgba(255,255,0,0.6)}
+    content{width:70%;background-color:rgba(255,255,0,0.6); border-left:5px solid brown; padding-left:2% }
+    .inner_div{width:30%; background-color:rgba(255,255,0,0.6); border-left:10px solid blue}
+    figure img {width:100%; background-color:rgba(255,255,0,0.6); box-shadow:5px 3px 8px black}
+    figcaption {text-align: center;font-size:1.5em; color:blue; margin-top:5px}
+    @media screen and (max-width:900px)
+    {.wrapper {width:90%; flex-direction:column}
+    .inner_div {width:100%; margin-top:1em;}
+    content, aside {width:90%; margin-left:auto; margin-right:auto; border-left:5px solid brown;}
+    h1 {font-size: 2em;}
