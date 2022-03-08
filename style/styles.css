@@ -45,7 +45,7 @@ nav{display: flex;
 
     h2{color: rgb(235, 228, 220); text-align: center}
     p{font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif; font-size: 1.6em; margin-left: 5px; margin-right: 5px; text-align: justify; color: lightblue}
-    .ram{align-self: center}
+    .ram{align-self: center; width:40%}
     .v{font-style: oblique}
     h5{color: blue}
     h5:hover{color:red}
